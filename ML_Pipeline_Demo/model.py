@@ -76,7 +76,7 @@ model.compile(loss = tf.keras.losses.mae,
               metrics = ['MeanAbsoluteError'])
 
 # Fit the model
-#model.fit(tf.expand_dims(a_train, axis=1), b_train, epochs=100)
+#model.fit(tf.expand_dims(a_train, axis=1), b_train, epochs=90)
 model.fit(a_train, b_train, epochs=100)
 
 
